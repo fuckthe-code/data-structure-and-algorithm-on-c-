@@ -1,0 +1,13 @@
+#include<iostream>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+using namespace std
+int main()
+{
+	int a[8]={0,1};
+	int *b;
+	b=a;
+	for_each(b,b+8,[](int *s){cout<<*s<<endl;});
+	return 0;
+}
